@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* common shared styles */
+.heading-font {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.descriptive-font {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #0c880a;
+    color: white;
+}
+
+/* Nav related styles */
+.orange {
+    color: #FF5400
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color:#424247;
+}
+ nav ul{
+    display: flex;
+    gap: 44px;
+ }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header related styles */
