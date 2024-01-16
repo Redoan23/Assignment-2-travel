@@ -147,6 +147,60 @@ button a {
     height: 560px;
 }
 
+/*Destination section styles  */
+.destination-heading {
+    font-size: 40px;
+    margin-top: 100px;
+    padding-bottom: 24px;
+}
+
+.destination-description {
+    width: 640px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    padding-bottom:50px ;
+}
+.destination-caption{
+    text-align: center;
+}
+
+.pictures {
+    position: relative;
+    background-image: linear-gradient(90deg, rgba(19, 19, 24, 0.492) 100%, rgba(19, 19, 24, 0.886) 100%);
+    border-radius: 16px;
+}
+
+.place-name {
+    position: absolute;
+    top: 46%;
+    left: 35%;
+    color: #FFF;
+    font-size: 28px;
+}
+.destination-pictures img{
+    width: 100%;
+    height: 100%;    
+}
+
+.pic-1{grid-area: maldives;}
+.pic-2{grid-area: indonesia;}
+.pic-3{grid-area: srilanka;}
+.pic-4{grid-area: america;}
+.pic-5{grid-area: kashmir;}
+.pic-6{grid-area: bangladesh;}
+.pic-7{grid-area: bandarban;}
+
+.destination-pictures {
+    display: grid;
+    grid-template-areas: 
+    "maldives    maldives   indonesia  indonesia"
+    "srilanka    america    america    kashmir"
+    "bangladesh  bangladesh  bandarban  bandarban"
+    ;
+    gap: 22px;
+}
+    
+
 
 
 
@@ -218,8 +272,26 @@ button a {
     .popular-tour-description {
         width: 335px;
     }
-    .read-more-btn{
+
+    .read-more-btn {
         width: 170px;
         height: 50px;
+    }
+    .destination-pictures{
+        grid-template-areas: 
+        "maldives"
+        "indonesia"
+        "srilanka"
+        "america"
+        "kashmir"
+        "bangladesh"
+        "bandarban"
+        ;
+    }
+    .destination-pictures img{
+        width: 100%;
+    }
+    .destination-description{
+        width: 200px;
     }
 }
