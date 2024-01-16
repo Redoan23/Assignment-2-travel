@@ -242,14 +242,14 @@ button a {
     padding: 15px;
 }
 
-.card-2{
-    width:565px;
-    height:284px;
+.card-2 {
+    width: 565px;
+    height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 15px;
-    
+
 }
 
 .card-3 {
@@ -259,6 +259,8 @@ button a {
     background: rgba(233, 68, 68, 0.05);
     border-radius: 16px;
     padding: 15px;
+
+
 }
 
 .card-heading {
@@ -271,6 +273,16 @@ button a {
     padding-top: 15px;
 }
 
+.cards {
+    display: flex;
+    gap: 22px;
+}
+
+.card3-cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
 
 
 
@@ -377,5 +389,27 @@ button a {
 
     .destination-description {
         width: 200px;
+    }
+
+    /* cards section */
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 335px;
+        height: 289px;
+    }
+    .card-description{
+        width: 271px;
+    }
+    .cards3-cover{
+        flex-direction: column;
+        width: 335px;
+        justify-content: flex-start;
+        
+        
     }
 }
