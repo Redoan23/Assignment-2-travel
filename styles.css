@@ -284,9 +284,56 @@ button a {
     margin-top: 22px;
 }
 
+/* deals detail section */
+.deals-discount-texts {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
 
+.deals-icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
 
+.deals-discount-image {
+    background-image: url(./Images/Group\ 39.png);
+    height: 500px;
+    position: relative;
+    margin-top: 25px;
+}
+.deals-discount-image-2{
+    background-image: url(./Images/Group\ 40.png);
+    height: 500px;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 24px;
+}
 
+.deals-details {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.705);
+    width: 579px;
+    height: 355px;
+    border-radius: 11px;
+    top: 12%;
+    left: 45%;
+    padding:40px 0 0 50px ;
+
+}
+.deals-details-heading{
+        padding: 21px 0;
+}
+.deals-details-description{
+    padding: 15px 0;
+}
+.deals-details-price{
+    padding-bottom:25px ;
+}
+.deals-discount-description {
+        margin: 10px 0 30px 0;
+}
 
 
 
@@ -402,14 +449,16 @@ button a {
         width: 335px;
         height: 289px;
     }
-    .card-description{
+
+    .card-description {
         width: 271px;
     }
-    .cards3-cover{
+
+    .cards3-cover {
         flex-direction: column;
         width: 335px;
         justify-content: flex-start;
-        
-        
+
+
     }
 }
