@@ -472,9 +472,27 @@ hr {
     left: 48%;
     padding-top: 18px;
 }
-
-
-
+/* footer section */
+footer{
+    background-color: rgba(19, 19, 24, 0.05); 
+}
+.footer{
+    text-align: center;
+    margin: 0 auto;
+}
+.address{
+justify-content: center;
+padding:110px 0 18px 0 ;
+}
+.social-links{
+    margin: 30px 0 30px 0;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+.copyright{
+    padding: 40px 0;
+}
 
 
 
@@ -652,7 +670,7 @@ hr {
     }
 
     .newsletter-img {
-        width: 393px;
+        width: 363px;
     }
 
     .last-text {
@@ -665,7 +683,8 @@ hr {
     }
 
     .newsletter-form {
-        width: 300px;
+        width: 280px;
+        text-align: center;
     }
 
     .newsletter-form input[type="text"],
