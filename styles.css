@@ -223,14 +223,15 @@ button a {
 }
 
 /* Choose section */
-
+.choose-section{
+}
 .choose-texts {
     margin-top: 100px;
     text-align: center;
 }
 
 .choose-description {
-    padding-top: 20px;
+    padding: 25px 0;
 }
 
 .card-1 {
@@ -288,7 +289,8 @@ button a {
     margin-top: 100px;
     margin-bottom: 25px;
 }
-
+.deals-and-discount{
+}
 .deals-icons {
     display: flex;
     gap: 25px;
@@ -352,6 +354,7 @@ button a {
     font-size: 20px;
     font-weight: 700px;
     margin: 10px auto;
+    text-align: center;
 }
 
 /* perfect-place-section-styles */
@@ -381,12 +384,13 @@ button a {
 
 .perfect-place-picture {
     position: relative;
-    width: 1200px;
+    width: 900px;
 }
 
 .perfect-place-picture video {
     width: 100%;
     border-radius: 16px;
+    
 }
 
 .text-for-the-middle {
@@ -398,18 +402,21 @@ button a {
     bottom: 40%;
     left: 28%;
     color: #FFF;
+    
 }
 
 .newsletter {
     display: flex;
     gap: 25px;
     margin-top: 100px;
+    
 }
 
 .newsletter-header {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+    
 }
 
 .newsletter-description {
@@ -436,14 +443,17 @@ hr {
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 43px;
+    
 }
 
 .newsletter-img img {
     width: 100%;
+    
 }
 
 .newsletter-img {
     width: 720px;
+    height: 400px;
     position: relative;
 }
 
@@ -612,10 +622,11 @@ padding:110px 0 18px 0 ;
     .card-2 {
         width: 335px;
         height: 289px;
+        margin: 0 auto;
     }
 
     .card-description {
-        width: 271px;
+        width: 270px;
     }
 
     .card-4 {
@@ -654,23 +665,36 @@ padding:110px 0 18px 0 ;
         background-position: center;
         margin: 20px auto;
         position: relative;
+        
     }
 
     .perfect-place-section {
         flex-direction: column;
+        width: 335px;
+        margin: 20px auto;
     }
-
+    .perfect-place{
+         margin: 0 auto;
+         
+    }
+    .perfect-place-heading{
+        width: 248px;
+        font-size: 20px;
+    }
     .perfect-place-picture {
-        width: 380px;
+        width: 100%;
         height: auto;
     }
 
     .newsletter {
         flex-direction: column;
+        width: 375px;
+        margin: 0 auto;
     }
 
     .newsletter-img {
-        width: 387px;
+        width: auto;
+        height: 300px;
     }
 
     .last-text {
@@ -683,7 +707,7 @@ padding:110px 0 18px 0 ;
     }
 
     .newsletter-form {
-        width: 300px;
+        width: auto;
         text-align: center;
     }
 
