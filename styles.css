@@ -619,7 +619,6 @@ footer {
         width: 170px;
         height: 50px;
     }
-
     .destination-pictures {
         grid-template-areas:
             "maldives"
@@ -707,7 +706,6 @@ footer {
 
     .perfect-place {
         margin: 0 auto;
-
     }
 
     .perfect-place-heading {
@@ -718,6 +716,11 @@ footer {
     .perfect-place-picture {
         width: 100%;
         height: auto;
+    }
+    .opinion{
+        width: 325px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     textarea {
